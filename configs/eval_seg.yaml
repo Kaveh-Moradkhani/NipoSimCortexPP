@@ -1,0 +1,20 @@
+dataset:
+  path: /home/at83760/workspace/dataset/CNP_LA5C_BIDS_KM/preprocessed_mni
+  split_file: /home/at83760/workspace/dataset/CNP_LA5C_BIDS_KM/subjects_data.csv
+  split_name: test    
+
+evaluation:
+  num_classes: 9
+  exclude_background: true
+  nsd_tolerance_vox: 1.0
+
+outputs:
+  root: /home/at83760/workspace/fall2025/SimCortexPP/ckpts/segmentation
+  pred_save_dir: ${outputs.root}/exp1_aug_500_ddp/predictions_CNP
+  log_dir:  ${outputs.root}/exp1_aug_500_ddp/logs_eval_CNP
+  eval_csv: ${outputs.root}/exp1_aug_500_ddp/evaluations_CNP/seg_eval_test.csv
+
+hydra:
+  run:
+    dir: ${outputs.log_dir}
+  output_subdir: null
