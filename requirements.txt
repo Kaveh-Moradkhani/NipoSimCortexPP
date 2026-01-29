@@ -124,3 +124,12 @@ Werkzeug==3.1.5
 widgetsnbextension==4.0.15
 yacs @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_yacs_1737043264/work
 zipp==3.23.0
+numpy
+torch
+tqdm
+nibabel
+hydra-core
+omegaconf
+pandas
+monai
+tensorboard
