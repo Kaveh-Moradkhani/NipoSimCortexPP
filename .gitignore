@@ -1,20 +1,17 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.ipynb_checkpoints/
-
-# Logs / runs
-logs/
-runs/
+# outputs / runs / predictions / logs
+ckt/
+sample_bids/
+outputResult.nii.gz
+**/logs*/
+**/predictions*/
 *.log
 events.out.tfevents.*
 
-# Outputs / checkpoints / predictions (keep repo clean)
-ckt/
-sample_bids/derivatives/
-sample_bids/**/*.nii
-sample_bids/**/*.nii.gz
-outputResult.nii.gz
+# large neuro files (keep only if you REALLY want them versioned)
+# If you want to keep assets/*.nii.gz and assets/*.pt, then do NOT ignore globally.
+# Otherwise uncomment these:
+# *.nii
+# *.nii.gz
+# *.pt
+# *.pth
 
