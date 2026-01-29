@@ -1,1 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Logs / runs
+logs/
+runs/
+*.log
+events.out.tfevents.*
+
+# Outputs / checkpoints / predictions (keep repo clean)
 ckt/
+sample_bids/derivatives/
+sample_bids/**/*.nii
+sample_bids/**/*.nii.gz
+outputResult.nii.gz
+

@@ -1,6 +1,6 @@
 dataset:
-  path: /home/at83760/workspace/dataset/HCP_OASIS_7.4.1
-  split_file: /home/at83760/workspace/dataset/dataset_split.csv
+  path: /project/hippocampus/common/kaveh/dataset/HCP_OASIS_7.4.1
+  split_file: /project/hippocampus/common/kaveh/dataset/dataset_split.csv
   pad_mult: 16         
   train_split: train
   val_split: val
@@ -23,7 +23,7 @@ model:
   out_channels: 9
 
 outputs:
-  root: /home/at83760/workspace/fall2025/SimCortexPP/ckpts/segmentation   
+  root: /project/hippocampus/common/kaveh/workspace/NipoSimCortex/ckt/segmentation 
   log_dir:  ${outputs.root}/logs
   ckpt_dir: ${outputs.root}/checkpoints
 
