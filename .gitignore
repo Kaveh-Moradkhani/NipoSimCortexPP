@@ -30,3 +30,4 @@ outputResult.nii.gz
 *.sif
 *.tar
 *.tar.gz
+bids_dataset_description.json
