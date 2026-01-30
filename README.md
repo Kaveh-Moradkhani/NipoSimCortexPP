@@ -1,5 +1,5 @@
 
-# NipoSimCortex (niposimcortex)
+# NipoSimCortex
 
 **BIDS T1w → MNI Registration → U-Net Segmentation Pipeline**
 
