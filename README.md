@@ -20,7 +20,6 @@ This project provides a command-line pipeline for running brain image segmentati
 
 * ✅ **Nipoppy Ready:** Fully packaged for Nipoppy as a processing pipeline (`v0.5`).
 * ✅ **Containerized:** Support for both **Docker** and **Apptainer/Singularity**.
-* ✅ **HPC Optimized:** Designed for seamless execution on high-performance computing clusters.
 
 ---
 
