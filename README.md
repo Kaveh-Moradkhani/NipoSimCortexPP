@@ -26,7 +26,7 @@ This project provides a command-line pipeline for running brain image segmentati
 
 ## 📦 Containers
 
-### Docker (Recommended for local development)
+### Docker
 
 **Image:** `kavehmo/niposimcortex:0.5`
 
@@ -35,7 +35,7 @@ docker pull kavehmo/niposimcortex:0.5
 
 ```
 
-### Apptainer / Singularity (Recommended for HPC)
+### Apptainer 
 
 To build or pull the image from DockerHub:
 
@@ -43,8 +43,6 @@ To build or pull the image from DockerHub:
 apptainer pull niposimcortex_0.5.sif docker://kavehmo/niposimcortex:0.5
 
 ```
-
-*Note: If your repo is private, use `--docker-login`.*
 
 ---
 
