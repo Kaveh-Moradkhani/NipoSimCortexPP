@@ -1,0 +1,8 @@
+numpy
+nibabel
+monai==1.3.2
+tqdm
+hydra-core
+omegaconf
+pandas
+

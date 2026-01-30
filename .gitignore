@@ -15,3 +15,18 @@ events.out.tfevents.*
 # *.pt
 # *.pth
 
+
+# ---- local / generated ----
+**/__pycache__/
+*.pyc
+*.save
+nipo_out/
+ckt/
+sample_bids/
+derivatives/
+outputResult.nii.gz
+
+# containers / archives
+*.sif
+*.tar
+*.tar.gz
