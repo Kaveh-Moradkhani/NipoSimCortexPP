@@ -1,0 +1,30 @@
+# git / editor / python junk
+.git
+.github
+**/__pycache__/
+*.py[cod]
+*.swp
+*.swo
+.DS_Store
+*.save
+
+# local outputs (never bake into image)
+sample_bids/
+ckt/
+nipo_out/
+derivatives/
+outputResult.nii.gz
+*.log
+*.out
+*.err
+
+# containers / archives (huge)
+*.sif
+*.tar
+*.tar.gz
+
+# optional: if you ever create them inside repo
+apptainer_tmp/
+apptainer_cache/
+tmp/
+
